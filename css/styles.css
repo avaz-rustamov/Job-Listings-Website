@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+body {
+
+}
+.container {
+  min-width: 1410px;
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.site_header {
+  background-image: url(../img/header-img.svg);
+  background-repeat: no-repeat;
+  background-color: #5CA5A5;
+  width: 1366px;
+  height: 156px;
+}
