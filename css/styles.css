@@ -55,7 +55,19 @@ body {
   background-color: #EFFAFA;;
   padding: 76px 128px;
 }
+.visuallyhidden {
+    font-size: 0;
+    width: 1px;
+    height: 1px;
+    display: inline-block;
+    overflow: hidden;
+    position: absolute!important;
+    border: 0!important;
+    padding: 0!important;
+    margin: 0!important;
+    clip: rect(1px,1px,1px,1px);
 
+}
 .job_list {
   display: flex;
   align-items: center;
@@ -166,24 +178,25 @@ body {
 
 .job_list_link_item {
   display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 
 .job_list_links {
-  list-style: none;
   background: #EFF6F6;
-  mix-blend-mode: normal;
-  height: 32px;
-  padding: 4px 8px;
   margin-right: 16px;
   border-radius: 4px;
 }
+
 .job_list_links:hover {
   background-color: #5CA5A5;
   transition: 0.3s ease;
 }
 
 .job_list_link {
+  padding: 4px 8px;
   text-decoration: none;
   font-size: 13px;
   line-height: 24px;
@@ -193,7 +206,6 @@ body {
 .job_list_link:hover{
   color: #FFFFFF;
   transition: 0.3s ease;
-
 }
 
 .job_list_link_item {
